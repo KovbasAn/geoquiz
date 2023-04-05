@@ -116,7 +116,7 @@ function createQuestionsArray(options) {
 
 function renderPage(options) {
   document.body.innerHTML = ''
-  document.body.style.background = `linear-gradient(to bottom, rgba(245, 245, 250, 0.9), rgba(245, 245, 250, 0.9)), url('../images/${options.continent}.png') no-repeat center center`
+  document.body.style.background = `linear-gradient(to bottom, rgba(245, 245, 250, 0.9), rgba(245, 245, 250, 0.9)), url('./images/${options.continent}.png') no-repeat center center`
   document.body.style.backgroundSize = 'cover'
 
   if (options.quizDiff == 'normal') {
