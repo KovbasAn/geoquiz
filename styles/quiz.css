@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:visited, a:link, i:visited {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.question-block {
+  text-align: center;
+  width: 75vw;
+  margin: auto;
+  font-family: "Itim", cursive;
+  font-size: 24px;
+  color: #2192d4;
+}
+.question-block span {
+  font-weight: bold;
+}
+.question-block p {
+  margin-bottom: 10px;
+}
+.question-block input {
+  display: block;
+  height: 50px;
+  margin: 50px auto 50px;
+  padding: 5px;
+  font-family: "Itim", cursive;
+  font-size: 24px;
+  border: 3px solid #2192d4;
+  border-radius: 10px;
+  color: #2192d4;
+}
+.question-block img {
+  max-width: 50%;
+  min-width: 250px;
+  max-height: 250px;
+}
+
+.variant {
+  min-height: 50px;
+  max-width: 400px;
+  width: 50%;
+  min-width: 230px;
+  margin: 10px auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 5px solid #2192d4;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.variant:hover {
+  color: #53b9f3;
+  border-color: #53b9f3;
+}
+.variant:active {
+  color: #53b9f3;
+  border-color: #53b9f3;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-family: "Itim", cursive;
+  font-size: 30px;
+  color: #2192d4;
+  border: 5px solid #2192d4;
+  border-radius: 10px;
+  background-color: white;
+}
+button:hover {
+  color: white;
+  background-color: #2192d4;
+}
+button:active {
+  color: #53b9f3;
+  border-color: #53b9f3;
+}
+
+#timer {
+  color: #2192d4;
+  font-family: "Itim", cursive;
+  font-size: 24px;
+  position: absolute;
+  bottom: 11%;
+}
+
+.correct {
+  background-color: #69eeb2;
+}
+
+.wrong {
+  background-color: #f78585;
+}
+
+canvas {
+  position: absolute;
+}/*# sourceMappingURL=quiz.css.map */
